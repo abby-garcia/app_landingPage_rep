@@ -1,0 +1,124 @@
+
+/*Container*/
+.grid-container {
+        width : 100%;
+        max-width : 1200px; 
+    }
+
+/*Row*/
+.row:before, 
+    .row:after {
+        content:"";
+        display: table ;
+         clear:both;
+    }
+
+/*Column*/
+/*Positioning*/
+[class*='col-'] {  
+        float: left;
+        min-height: 1px; 
+        /*-- our gutter -- */
+        padding: 12px;
+        box-sizing: border-box;
+    }
+
+/*Column Widths*/
+	.col-1{
+        width: 8.33%; 
+    }
+    .col-2{
+        width: 16.66%; 
+    }
+    .col-3{
+        width: 24.99%; 
+    }
+    .col-4{
+        width: 33.32%;
+    }
+    .col-5{
+        width: 41.65%;
+    }
+    .col-6{
+        width: 49.98%;
+    }  
+
+   	.col-7{
+      	  width: 58.31%; 
+      	}
+    .col-8{
+        width: 33.33%; 
+    }
+    .col-9{
+        width: 50%; 
+    }
+    .col-10{
+        width: 66.664%;
+    }
+    .col-11{
+        width: 91.63%;
+    }
+    .col-12{
+        width: 100%;
+    }  
+
+    .outline, .outline *{
+        outline: 1px solid #F6A1A1; 
+    }
+
+    /*-- some extra column content styling --*/
+    [class*='col-'] > p {
+     background-color: #FFC2C2; 
+     padding: 0;
+     margin: 0;
+     text-align: center; 
+     color: white; 
+    }
+
+
+    /*Six Columns*/
+	/*.col-1{
+        width: 16.66%; 
+    }
+    .col-2{
+        width: 33.33%; 
+    }
+    .col-3{
+        width: 50%; 
+    }
+    .col-4{
+        width: 66.664%;
+    }
+    .col-5{
+        width: 83.33%;
+    }
+    .col-6{
+        width: 100%;
+    }  */
+
+
+/*Responsiveness*/
+@media all and (max-width:800px){
+        .col-1{ width: 33.33%;    }
+        .col-2{ width: 50%;        }
+        .col-3{ width: 83.33%;    }
+        .col-4{ width: 100%;    }
+        .col-5{ width: 100%;    }
+        .col-6{ width: 100%;      }
+
+        .row .col-2:last-of-type{
+            width: 100%; 
+        }
+
+        .row .col-5 ~ .col-1{  /*~ means besides*/
+            width: 100%; 
+        }
+    }    
+
+
+
+
+
+
+
+
