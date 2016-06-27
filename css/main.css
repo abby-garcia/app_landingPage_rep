@@ -193,15 +193,37 @@ a {
 	padding: 2%;
 }
 
+/*What did You Recieve with WAVA Showcase*/
+
+.showcase{
+	padding-top: 3%;
+	background: #F2F2F2;
+}
+
+.showcase_checklist{
+	padding-top: 3%;
+}
+
+.showcase_checklist i{
+	padding-bottom: 3%;
+}
 
 
+.mob_back{
+	/*position: absolute;
+    left: 0px;
+    top: -20px;
+    z-index: 1;*/
 
+}
 
-
-
-
-
-
+.mob_front{
+/*	position: absolute;
+    left: 12%;
+    margin: 0px auto;
+    top: -40px;
+    z-index: 2;*/
+}
 
 
 
