@@ -1,6 +1,6 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
-    font-weight: 300; 
+    font-weight: 200; 
 }
 
 h1{
@@ -162,13 +162,36 @@ a {
 
 }
 
+/*Share Your Favorite Mobile Apps*/
 
+.favorite{
+	background-color: #A0CE4E;
+	text-align: center;
+}
 
+.favorite{
+	font-size: 30px;
+}
 
+.bold {
+    font-weight: 400;
+}
 
+.fav_sentence{
+	padding-top: 15%;
+}
 
+.fav_icons{
+	padding-bottom: 15%;
+	color:white;
+}
 
-
+.fav_icons i{
+	text-align: center;
+	border: 1px solid white;
+	border-radius: 25px;
+	padding: 2%;
+}
 
 
 
