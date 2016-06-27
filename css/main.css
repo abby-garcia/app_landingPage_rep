@@ -1,48 +1,137 @@
-.header_list ul, li{
-	display: inline;
-}
-
-.header_list a{
-	text-decoration: none;
-	padding-left: 2%;
-}
-
-.header_list{
-	position: relative;
-    left: 44%;
-}
-
-.logo{
-	width: 11%;
-}
-
-
-
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; 
 }
 
 h1{
-	font-size: 40px;
+    font-size: 40px;
 
 }
 
 a {
-	text-decoration: none;
-	color:#837E7C;
+    text-decoration: none;
+    color:#837E7C;
 }
+
+
+/*// START header*/
+
+.header_list {
+    position: relative;
+    float: right;
+    display: block;
+}
+
+    @media screen and (min-width: 801px){
+        .header_list {
+            display: block !important;
+        }
+    }
+    @media screen and (max-width: 800px){
+        .header_list {
+            background-color: lightgray;
+            display: none;
+            padding: 0px;
+        }
+    }
+
+
+.header_list ul, li{
+    display: inline;
+}
+    @media screen and (max-width: 800px){
+        .header_list li {
+            display: block;
+            text-align: center;
+            font-size: 1.5em;
+        }
+    }
+
+.header_list a{
+    text-decoration: none;
+    padding-left: 2%;
+}
+    @media screen and (max-width: 800px){
+        .header_list a {
+            display: block;
+            text-align: center;
+            width: 100%;
+            padding: 10px 0px;
+            color: white;
+        }
+        .header_list a:hover {
+            background-color: gray;
+        }
+    }
+
+
+
+
+.hamburger {
+    position: absolute;
+    right: 20px;
+    top: 27px;
+    font-size: 1.5em;
+    cursor: pointer;
+    border: 1px solid gray;
+    padding: 5px 10px 2px;
+    border-radius: 5px;
+    display: none;
+}
+    @media screen and (max-width: 800px){
+        .hamburger {
+            display: block;
+        }
+    }
+
+.logo{
+    float: left;
+    padding: 10px 20px;
+}
+
+/*END header*/
+
+
+
+
+
+
+
+/*perfect landing page*/
+
+
+.phone-hand img {
+    width: 100%;
+    max-width: 490px;
+}
+
 
 /* Present Yor App to the World 
 */
 
 .app h2, h4{
-	text-align: center;
+    text-align: center;
 }
 
 .app_pic{
-	display: block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+/*3 Sections*/
+
+.boxes{
+	padding: 4%;
+}
+.boxes i {
+	color:green;
+	padding-left: 40%;
+}
+
+.boxes p{
+	color:black;
+	background: white;
 }
 
