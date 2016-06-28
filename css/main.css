@@ -112,10 +112,19 @@ a {
     margin-right: auto;
 }
 
+.app h4{
+	padding-bottom: 60px;
+	font-size: 18px;
+}
+
+
+
+
 /*3 Sections*/
 
 .boxes{
     padding: 10px;
+    text-align: center;
 }
 .boxes i {
     color:green;
@@ -126,6 +135,12 @@ a {
     color:black;
     background: white;
 }
+
+
+
+
+
+
 
 
 /*Wide Range of Features
