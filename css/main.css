@@ -1,4 +1,4 @@
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, a{
     font-family: 'Roboto', sans-serif;
     font-weight: 200; 
 }
@@ -50,6 +50,7 @@ a {
 .header_list a{
     text-decoration: none;
     padding-left: 2%;
+    font-size: 14px;
 }
     @media screen and (max-width: 800px){
         .header_list a {
@@ -90,6 +91,7 @@ a {
 }
 
 /*END header*/
+
 /*perfect landing page*/
 
 
@@ -162,14 +164,26 @@ a {
 
 .all_features p{ 
     color:black;
+    font-size: 18px;
+
+}
+
+.title{
+	font-size: 14px;
 }
 
 .left_features i{
     position: static;
     left: 80%;
     padding-top: 10px;
+    color: #A4D055;
 
 }
+
+.right_features i{
+	color: #A4D055;
+}
+
 
 /*Share Your Favorite Mobile Apps*/
 
