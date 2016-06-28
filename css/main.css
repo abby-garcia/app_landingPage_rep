@@ -174,6 +174,13 @@ a {
 	font-size: 14px;
 }
 
+.left_features{
+	text-align: right;
+}
+
+
+
+
 .left_features i{
     position: static;
     left: 80%;
@@ -240,9 +247,6 @@ a {
     padding-bottom: 10px;
 }
 
-.showcase_right{
-
-}
 
 
 .relative {
@@ -270,6 +274,20 @@ a {
 /*Describe Your Best Feature
 */
 
+.feature{
+	padding-top: 10px;
+    background: #F2F2F2;
+    padding: 150px 0px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    padding-bottom: 190px;
+    font-size: 15px;
+}
+
+
+
+
 .feature_text{
 	padding-top:100px;
 	overflow: hidden;
@@ -280,12 +298,12 @@ a {
 }
 
 .right-mob-front {
-    position: relative;
+    position: absolute;
     right: 12%;
     margin: 0px auto;
     top: -40px;
     z-index: 2;
-    
+
 }
 
 .right-mob-back{
