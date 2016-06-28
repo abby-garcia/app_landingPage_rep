@@ -90,13 +90,6 @@ a {
 }
 
 /*END header*/
-
-
-
-
-
-
-
 /*perfect landing page*/
 
 
@@ -119,58 +112,57 @@ a {
     margin-right: auto;
 }
 
-
 /*3 Sections*/
 
 .boxes{
-	padding: 4%;
+    padding: 10px;
 }
 .boxes i {
-	color:green;
-	padding-left: 40%;
+    color:green;
+    padding-left: 10px;
 }
 
 .boxes p{
-	color:black;
-	background: white;
+    color:black;
+    background: white;
 }
 
 
 /*Wide Range of Features
 */
 .wide_features{
-	background: #F1F1F1;
+    background: #F1F1F1;
 }
 
 .wide_features h2{
-	padding-top: 3%;
-	text-align: center;
+    padding-top: 10px;
+    text-align: center;
 }
 
 .features_sentence {
-	text-align: center;
+    text-align: center;
 }
 
 .all_features p{ 
-	color:black;
+    color:black;
 }
 
 .left_features i{
-	position: static;
-	left: 80%;
-	padding-top: 
+    position: static;
+    left: 80%;
+    padding-top: 10px;
 
 }
 
 /*Share Your Favorite Mobile Apps*/
 
 .favorite{
-	background-color: #A0CE4E;
-	text-align: center;
+    background-color: #A0CE4E;
+    text-align: center;
 }
 
 .favorite{
-	font-size: 30px;
+    font-size: 30px;
 }
 
 .bold {
@@ -178,52 +170,163 @@ a {
 }
 
 .fav_sentence{
-	padding-top: 15%;
+    padding-top: 15px;
 }
 
 .fav_icons{
-	padding-bottom: 15%;
-	color:white;
+    padding-bottom: 15px;
+    color:white;
 }
 
 .fav_icons i{
-	text-align: center;
-	border: 1px solid white;
-	border-radius: 25px;
-	padding: 2%;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 2px;
 }
 
 /*What did You Recieve with WAVA Showcase*/
 
 .showcase{
-	padding-top: 3%;
-	background: #F2F2F2;
+    padding-top: 10px;
+    background: #F2F2F2;
+    padding: 150px 0px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    padding-bottom: 190px;
 }
 
 .showcase_checklist{
-	padding-top: 3%;
+    padding-top: 10px;
 }
 
 .showcase_checklist i{
-	padding-bottom: 3%;
+    padding-bottom: 10px;
 }
 
+.relative {
+    position: relative;
+}
 
 .mob_back{
-	/*position: absolute;
+    position: absolute;
     left: 0px;
     top: -20px;
-    z-index: 1;*/
+    z-index: 1;
 
 }
 
 .mob_front{
-/*	position: absolute;
+    position: absolute;
     left: 12%;
     margin: 0px auto;
     top: -40px;
-    z-index: 2;*/
+    z-index: 2;
 }
+
+
+/*Describe Your Best Feature
+*/
+
+.feature_text{
+	padding-top:100px;
+}
+
+.feature_text p{
+	font-size: 16px;
+}
+
+.right-mob-front {
+    position: relative;
+    right: 12%;
+    margin: 0px auto;
+    top: -40px;
+    z-index: 2;
+}
+
+.right-mob-back{
+	position: absolute;
+    right: 0px;
+    top: -20px;
+    z-index: 1;
+}
+
+/*Get In touch Say Hello!*/
+
+.hello{
+	background: #F4F4F4;
+	text-align: center;
+	padding-bottom: 90px;
+	padding-top: 90px;
+}
+
+.form-control{
+	height: 50px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    width: 32%;
+    font-size: 12px;
+    box-shadow: none;
+}
+
+.button{
+	background-color: #A0CE4E; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+/*Bottom Logo and Links*/
+
+footer{
+	background: #29282B;
+	text-align: center;
+	padding-bottom: 200px;
+}
+
+.footer_logo{
+	padding-top: 50px;
+
+}
+
+.socialList i{
+	color:white;
+	margin-left: 3px;
+}
+
+
+.social_name{
+	font-family: 'Roboto', sans-serif;
+}
+
+hr{
+	width:40%;
+	color:black;
+}
+
+.designBy{
+	color:white;
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
