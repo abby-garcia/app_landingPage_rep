@@ -1,4 +1,4 @@
-h1, h2, h3, h4, h5, h6, p, a{
+h1, h2, h3, h4, h5, h6, p, a, i{
     font-family: 'Roboto', sans-serif;
     font-weight: 200; 
 }
@@ -151,6 +151,8 @@ a {
 */
 .wide_features{
     background: #F1F1F1;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 .wide_features h2{
@@ -177,7 +179,6 @@ a {
     left: 80%;
     padding-top: 10px;
     color: #A4D055;
-
 }
 
 .right_features i{
@@ -201,7 +202,7 @@ a {
 }
 
 .fav_sentence{
-    padding-top: 15px;
+    padding-top: 80px;
 }
 
 .fav_icons{
@@ -226,15 +227,23 @@ a {
     z-index: 2;
     overflow: hidden;
     padding-bottom: 190px;
+    font-size: 15px;
 }
 
 .showcase_checklist{
     padding-top: 10px;
+    font-family: 'Roboto';
+    font-weight: 100;
 }
 
 .showcase_checklist i{
     padding-bottom: 10px;
 }
+
+.showcase_right{
+
+}
+
 
 .relative {
     position: relative;
@@ -257,11 +266,13 @@ a {
 }
 
 
+
 /*Describe Your Best Feature
 */
 
 .feature_text{
 	padding-top:100px;
+	overflow: hidden;
 }
 
 .feature_text p{
@@ -274,6 +285,7 @@ a {
     margin: 0px auto;
     top: -40px;
     z-index: 2;
+    
 }
 
 .right-mob-back{

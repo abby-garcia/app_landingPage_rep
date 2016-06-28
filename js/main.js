@@ -4,4 +4,8 @@ $(document).ready(function(){
     });
 
 
+    $('.features_pic').addClass('animated bounceInLeft');
+
+    // need to put onScroll
+
 });
