@@ -92,7 +92,8 @@ a {
 
 /*END header*/
 
-/*perfect landing page*/
+/*Perfect Landing Page to Showcase App/AppStore*/
+
 
 
 .phone-hand img {
@@ -100,6 +101,10 @@ a {
     max-width: 490px;
 }
 
+
+.perfect_landingPage_text{
+	margin-top: 102px;
+}
 
 /* Present Yor App to the World 
 */
@@ -176,6 +181,11 @@ a {
     text-align: center;
 }
 
+.features_sentence p {
+    text-align: center;
+     margin-bottom: 70px;
+}
+
 .all_features p{ 
     color:black;
     font-size: 15px;
@@ -246,8 +256,12 @@ a {
     position: relative;
     z-index: 2;
     overflow: hidden;
-    padding-bottom: 190px;
+    padding-bottom: 244px;
     font-size: 15px;
+}
+
+.showcase_left{
+	margin-bottom: 
 }
 
 .showcase_checklist{
@@ -304,6 +318,7 @@ a {
 .feature_text{
 	padding-top:100px;
 	overflow: hidden;
+	font-size: 18px;
 }
 
 .feature_text p{
