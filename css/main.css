@@ -104,6 +104,12 @@ a {
 /* Present Yor App to the World 
 */
 
+.app h2{
+	padding-top: 76px;
+}
+
+
+
 .app h2, h4{
     text-align: center;
 }
@@ -125,7 +131,8 @@ a {
 /*3 Sections*/
 
 .boxes{
-    padding: 10px;
+	padding-top: 67px;
+	padding-bottom: 106px;
     text-align: center;
 }
 .boxes i {
@@ -158,6 +165,11 @@ a {
 .wide_features h2{
     padding-top: 10px;
     text-align: center;
+
+}
+
+.wide_features i{
+	padding-bottom:30px;
 }
 
 .features_sentence {
@@ -166,7 +178,8 @@ a {
 
 .all_features p{ 
     color:black;
-    font-size: 18px;
+    font-size: 15px;
+    padding-top:10px;
 
 }
 
@@ -352,7 +365,7 @@ footer{
 }
 
 .footer_logo{
-	padding-top: 50px;
+	padding-top: 96px;
 
 }
 
