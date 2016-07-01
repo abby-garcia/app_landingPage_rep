@@ -1,6 +1,7 @@
 h1, h2, h3, h4, h5, h6, p, a, i{
     font-family: 'Roboto', sans-serif;
     font-weight: 200; 
+    letter-spacing: 2px;
 }
 
 h1{
@@ -225,6 +226,8 @@ a {
 .favorite{
     background-color: #A0CE4E;
     text-align: center;
+    background-image :url(../img/stars.png);
+    background-image: no-repeat;
 }
 
 .favorite{
@@ -272,6 +275,10 @@ a {
 
 .showcase_left{
 	margin-bottom: 
+}
+
+.showcase_right p{
+	letter-spacing: 2px;
 }
 
 .showcase_checklist{
