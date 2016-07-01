@@ -8,6 +8,10 @@ h1{
 
 }
 
+h2{
+	letter-spacing: 2px;
+}
+
 a {
     text-decoration: none;
     color:#837E7C;
@@ -240,11 +244,17 @@ a {
     color:white;
 }
 
-.fav_icons i{
+.icons{
     text-align: center;
     border: 1px solid white;
     border-radius: 19px;
-    padding: 34px;
+    padding: 10px 30px;
+    display: inline-block;
+}
+
+.icons p{
+	font-size: 12px;
+	margin: 0;
 }
 
 /*What did You Recieve with WAVA Showcase*/
