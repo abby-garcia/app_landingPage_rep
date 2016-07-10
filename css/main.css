@@ -25,6 +25,8 @@ a {
     position: relative;
     float: right;
     display: block;
+    width: 53.98%;
+
 }
 
     @media screen and (min-width: 801px){
